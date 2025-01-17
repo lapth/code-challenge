@@ -1,0 +1,18 @@
+{
+  "name": "problem4",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "license": "UNLICENSED",
+  "owner": "lap.tran",
+  "scripts": {
+    "build": "rm -rf dist && npx tsc -b tsconfig.json"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/lodash": "^4.17.14",
+    "@types/node": "^22.10.7"
+  }
+}
